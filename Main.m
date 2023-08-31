@@ -43,7 +43,7 @@ policyNetwork = [imageInputLayer([numObs 1 1],'Normalization','none','Name','obs
         softmaxLayer('Name','actionProb')];
 
 
-policyOpts = rlRepresentationOptions('LearnRate',1e-2);
+policyOpts = rlRepresentationOptions('LearnRate',1e-4);
 policy = rlStochasticActorRepresentation(policyNetwork, observationInfo, actionInfo, 'Observation', {'observation'}, policyOpts);
 
 
