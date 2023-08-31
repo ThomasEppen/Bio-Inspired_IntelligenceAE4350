@@ -5,3 +5,5 @@ This GitHUb contains the code for the course Bio-Inspired Intelligence and learn
 main.m is the file to run the code with.
 
 At line 80 if trainAgent = false a simulation will be shown of that Agent.
+
+Not all saved agents are uploaded on GitHub due to size constraints.
